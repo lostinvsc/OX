@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}
+.start,.singleplayer,.multiplayer{
+    background-color: rgb(24, 226, 24);
+    width:140px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:20px 0px;
+    margin:20px;
+
+
+}
+
+.field{
+    display: flex;
+    width:600px;
+    height:600px;
+
+}
